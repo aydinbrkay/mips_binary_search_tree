@@ -7,9 +7,9 @@ tree: .space 4
 
 #Each node of tree stored in 16-byte address
 #Byte Address->Contents
-#   A->Value of the node
-# A+4->Address of the left child
-# A+8->Address of the right child
+#    A->Value of the node
+#  A+4->Address of the left child
+#  A+8->Address of the right child
 # A+12->Address of the parent
 
 .text
